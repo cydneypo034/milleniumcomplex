@@ -1,6 +1,8 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import ARSLOGO from '../images/ARS-logo.png';
+
 
 class FullPageIntroWithFixedTransparentNavbar extends React.Component {
   constructor(props) {
@@ -25,7 +27,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
           <Router>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand href="/">
-                <strong>Navbar</strong>
+                <img src={ARSLOGO} alt="green-logo-with-white-text" height="80" />
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
