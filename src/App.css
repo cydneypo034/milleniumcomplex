@@ -5,6 +5,7 @@
 .card-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card-info {
