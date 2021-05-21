@@ -80,7 +80,36 @@ export default class HomePage extends Component {
 
             <div style={{ height: '50px' }} />
             </Parallax>
-            </div>
+
+                <div class="jumbotron text-center hoverable p-4">
+                <div class="row">
+
+                    <div class="col-md-4 offset-md-1 mx-3 my-3">
+                    
+                    <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid" alt="blog-list" />
+                        <div class="mask rgba-white-slight">
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-md-7 text-md-left ml-3 mt-3">
+                    <a href="www.nowhere.com" class="green-text">
+                        <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Work</h6>
+                    </a>
+                    <h4 class="h4 mb-4">This is title of the news</h4>
+                    <p class="font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
+                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                    <p class="font-weight-normal">by <a href="www.nowhere.com"><strong>Carine Fox</strong></a>, 19/08/2016</p>
+                    <a href="www.nowhere.com" class="btn btn-success">Read more</a>
+                    </div>
+
+                </div>
+
+                </div>
+                </div>
+
         )
     }
 };
