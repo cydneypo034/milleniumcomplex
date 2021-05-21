@@ -20,9 +20,12 @@
     background-color: wheat;
     text-align: center;
 }
+
 .jumbotron {
     background-color: #495E61 !important;
+    margin-bottom: 0px;
 }
+
 .img-fluid {
     height: 300px;
     width: 500px;
