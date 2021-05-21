@@ -2,6 +2,14 @@
     display: inline-block;
 }
 
+.nav-bar-color {
+    background-color: #8E7159 !important;
+}
+
+.nav-bar-link {
+    font-family: Royale;
+}
+
 .card-wrapper {
     display: flex;
     flex-direction: row;
