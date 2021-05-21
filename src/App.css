@@ -1,4 +1,18 @@
 .container {
     display: inline-block;
-    
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-info {
+    background-color: wheat;
+    text-align: center;
+}
+
+.img-fluid {
+    height: 300px;
+    width: 500px;
 }
