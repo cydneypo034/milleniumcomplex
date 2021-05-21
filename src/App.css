@@ -12,8 +12,20 @@
     background-color: wheat;
     text-align: center;
 }
-
+.jumbotron {
+    background-color: #495E61 !important;
+}
 .img-fluid {
     height: 300px;
     width: 500px;
+}
+
+@font-face {
+    font-family: Royale;
+    src: url(./fonts/ROYALE-Bold.otf);
+}
+h1 {
+    font-family: Royale;
+    font-size: 30px;
+    font-weight: 400;
 }

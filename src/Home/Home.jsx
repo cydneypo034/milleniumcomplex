@@ -13,7 +13,7 @@ export default class HomePage extends Component {
             <div>
             <MDBView src={ARSGold}>
             <MDBMask overlay="brown-light" className="flex-center flex-column text-white text-center">
-              <h1>Aesthetically Righteous Studios</h1>
+              <h1>AESThETICAlly RIGhtEOUs STUDIOS</h1>
               <h5>"Art Beautifully Defined by God"</h5>
               <p>Brand Strategy | Brand Design | Fine Art</p><br />
               <div className="container">
@@ -98,7 +98,10 @@ export default class HomePage extends Component {
                    
                     <h4 class="h4 mb-4">Here's a Word from our Founder</h4>
                     <p class="font-weight-normal">My name is Cydney Pollard, founder of Aesthetically Righteous Studios. 
-                    
+                    I have a passion for creating and have used my creative capabilities for service in different ways.
+                    My love for drawing began to form when I was in elementary school and since then, I wanted to find my place
+                    in the world as a creative person. I've worked as a freelance graphic designer and a visual fine artist
+                    in digital illustration and painting for 7+ years. 
                     </p>
                     </div>
 
