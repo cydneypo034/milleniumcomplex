@@ -38,7 +38,7 @@ export default class HomePage extends Component {
                             Visit our fine art shop to shop for one-of-a-kind, 
                             Holy Spirit inspired artwork created in house by owner and prophetic fine artist Cydney Pollard.
                         </MDBCardText>
-                        <MDBBtn color="brown" href="#">MDBBtn</MDBBtn>
+                        <MDBBtn color="brown" href="#">Shop ArtfulCreations</MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -50,10 +50,10 @@ export default class HomePage extends Component {
                         <MDBCardBody className="card-info">
                         <MDBCardTitle>Brand Design and Strategy</MDBCardTitle>
                         <MDBCardText>
-                            Feel free to schedule a brand audit or design clarity call with us for 
+                            *Coming Soon* Feel free to schedule a brand audit or design clarity call with us for 
                             your branding needs in both strategy and design.
                         </MDBCardText>
-                        <MDBBtn color="brown" href="#">MDBBtn</MDBBtn>
+                        <MDBBtn color="brown" href="#">View Our Calendar</MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -65,16 +65,16 @@ export default class HomePage extends Component {
                         <MDBCardBody className="card-info">
                         <MDBCardTitle>Prophetic Art Education</MDBCardTitle>
                         <MDBCardText>
-                            Check out our blog to read our articles on prophetic arts and what it all entails.
-                            
+                            *Coming Soon* Check out our blog to read on the prophetic arts, what it all entails, and exercises
+                            to help in your prophetic exploration.
                         </MDBCardText>
-                        <MDBBtn color="brown" href="#">MDBBtn</MDBBtn>
+                        <MDBBtn color="brown" href="#">See Our Blog</MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
             </div>
-                 
 
+            <div style={{ height: '100px' }} />
             </Parallax>
             </div>
         )
