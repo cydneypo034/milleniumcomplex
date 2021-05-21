@@ -98,10 +98,17 @@ export default class HomePage extends Component {
                    
                     <h4 class="h4 mb-4">Here's a Word from our Founder</h4>
                     <p class="font-weight-normal">My name is Cydney Pollard, founder of Aesthetically Righteous Studios. 
-                    I have a passion for creating and have used my creative capabilities for service in different ways.
-                    My love for drawing began to form when I was in elementary school and since then, I wanted to find my place
-                    in the world as a creative person. I've worked as a freelance graphic designer and a visual fine artist
-                    in digital illustration and painting for 7+ years. 
+                    God gave me the vision for ARS years ago as I was discovering my purpose as a creative. My passion for the creative arts
+                    has been evident throughout my life, but it wasn't until 2015 when I took my relationship with God seriously and 
+                    as I served in my churches and other Christian small businesses that I discovered my gift wasn't given to me to use for myself. 
+                    It's for allowing God to speak to His people and show others what His heart truly looks like. <br/>
+
+                    A few fun facts about me: I was born and raised in Atlanta, Georgia. I attended the University of West Georgia and graduated
+                    with my Bachelor of Arts Degree with a Focus in Studio Art and a Minor in Marketing + Advertising. I'm now operating out of Duluth, Georgia.
+                    When I'm not working or doing art, you can find me watching anime, eating vegan food, 
+                    or hanging out with my family and my Golden Doodle, Beaux. I'm a nature lover and a big Disney fan. 
+                    I am always looking for inspiration for new artwork and look forward to learning new art mediums. 
+                    If you have any questions, please feel free to shoot me an email in Contact tab.
                     </p>
                     </div>
 
