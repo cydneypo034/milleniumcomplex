@@ -24,6 +24,12 @@
     font-family: Royale;
     src: url(./fonts/ROYALE-Bold.otf);
 }
+
+@font-face {
+    font-family: Grovana;
+    src: url(./fonts/Grovana-BoldRound.otf) ;
+}
+
 h1 {
     font-family: Royale;
     font-size: 30px;
