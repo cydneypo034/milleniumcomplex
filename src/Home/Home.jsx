@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import { MDBView, MDBMask } from "mdbreact";
-import BlueFlowers from '../images/BlueFlowers.JPG';
+import { MDBView, MDBMask, MDBBtn } from "mdbreact";
+import ARSGold from '../images/ARS-goldlayout.jpg';
 
 export default class HomePage extends Component {
     render() {
         return (
             <div>
-            <MDBView src={BlueFlowers}>
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+            <MDBView src={ARSGold}>
+            <MDBMask overlay="brown-light" className="flex-center flex-column text-white text-center">
               <h2>Aesthetically Righteous Studios</h2>
-              <h5>Fine Art </h5>
-              <p>Navbar's background will switch from transparent to solid color while scrolling down</p><br />
-              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+              <h5>"Art Beautifully Defined by God"</h5>
+              <p>Brand Strategy | Brand Design | Fine Art</p><br />
+              <MDBBtn color="brown">See Our Fine Art Shop</MDBBtn>
             </MDBMask>
           </MDBView>
             </div>
