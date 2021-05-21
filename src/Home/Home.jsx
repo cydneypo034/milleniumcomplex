@@ -14,8 +14,8 @@ export default class HomePage extends Component {
             <MDBView src={ARSGold}>
             <MDBMask overlay="brown-light" className="flex-center flex-column text-white text-center">
               <h1>AESThETICAlly RIGhtEOUs STUDIOS</h1>
-              <h5>"Art Beautifully Defined by God"</h5>
-              <p>Brand Strategy | Brand Design | Fine Art</p><br />
+              <h4>"Art Beautifully Defined by God"</h4>
+              <p>Brand Strategy and Design | Prophetic Fine Art | Graphic Retainers</p><br />
               <div className="container">
               <MDBBtn color="brown">Fine Art Shop</MDBBtn>
               <MDBBtn color="brown">Branding Services</MDBBtn>

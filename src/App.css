@@ -35,3 +35,14 @@ h1 {
     font-size: 30px;
     font-weight: 400;
 }
+
+h4 {
+    font-family: Grovana;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
