@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { MDBView, MDBMask, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from "mdbreact";
+import { MDBView, MDBMask, MDBBtn, MDBCard, MDBCardBody, MDBFooter, MDBCardImage, 
+    MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBContainer } from "mdbreact";
 import ARSGold from '../images/ARS-goldlayout.jpg';
 import FineArt from '../images/fineart.png';
 import BrandDesign from '../images/branddesign.png';
@@ -82,9 +83,9 @@ export default class HomePage extends Component {
             <div style={{ height: '50px' }} />
             </Parallax>
 
-                <div class="jumbotron text-center hoverable p-4">
-                <div class="row">
 
+            <div class="jumbotron text-center p-4">
+                <div class="row">
                     <div class="col-md-4 offset-md-1 mx-3 my-3">
                     
                     <div class="view overlay">
@@ -98,10 +99,8 @@ export default class HomePage extends Component {
                    
                     <h4 class="h4 mb-4">Here's a Word from our Founder</h4>
                     <p class="font-weight-normal">My name is Cydney Pollard, founder of Aesthetically Righteous Studios. 
-                    God gave me the vision for ARS years ago as I was discovering my purpose as a creative. My passion for the creative arts
-                    has been evident throughout my life, but it wasn't until 2015 when I took my relationship with God seriously and 
-                    as I served in my churches and other Christian small businesses that I discovered my gift wasn't given to me to use for myself. 
-                    It's for allowing God to speak to His people and show others what His heart truly looks like. <br/>
+                    God gave me the vision for ARS years ago as I was discovering my purpose as a creative. The purpose of ARS is to
+                    share the heart of God to His people and start an intimate conversation between heaven and earth. <br/>
 
                     A few fun facts about me: I was born and raised in Atlanta, Georgia. I attended the University of West Georgia and graduated
                     with my Bachelor of Arts Degree with a Focus in Studio Art and a Minor in Marketing + Advertising. I'm now operating out of Duluth, Georgia.
@@ -112,11 +111,7 @@ export default class HomePage extends Component {
                     </p>
                     </div>
 
-                    
-   
-
                 </div>
-
                 </div>
                 </div>
 

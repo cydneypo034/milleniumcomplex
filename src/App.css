@@ -23,7 +23,7 @@
 
 .jumbotron {
     background-color: #495E61 !important;
-    margin-bottom: 0px;
+    margin-bottom: -25px !important;
 }
 
 .img-fluid {
