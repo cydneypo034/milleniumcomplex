@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { MDBView, MDBMask, MDBBtn, MDBCard, MDBCardBody, MDBFooter, MDBCardImage, 
-    MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBContainer } from "mdbreact";
+import { MDBView, MDBMask, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, 
+    MDBCardTitle, MDBCardText, MDBCol } from "mdbreact";
 import ARSGold from '../images/ARS-goldlayout.jpg';
 import FineArt from '../images/fineart.png';
 import BrandDesign from '../images/branddesign.png';
