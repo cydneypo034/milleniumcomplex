@@ -8,6 +8,17 @@ export default class FooterPage extends Component {
               <MDBContainer fluid className="text-center text-md-left">
               <MDBRow>
 
+              <MDBCol md="6">
+                  <h6>
+                  We’re a fine art and design studio on a mission to create effective visuals and 
+                  plans for brands longing to tell their story. We’re actively listening to the heart of the One 
+                  who adores us for what His heart says about us in paintings and a variety of other mediums. 
+                  Whether you’re a brand beginning to tell their story or are wanting artwork that has the capacity to 
+                  touch a deep place, Aesthetically Righteous Studios 
+                  aims to offer strategies and craft artwork from a place of intentionality and authenticity for your business and beyond.
+                  </h6>
+                  </MDBCol>
+                  
                   <MDBCol md="6">
 
                   <form className="form-group w-50">
@@ -26,6 +37,8 @@ export default class FooterPage extends Component {
                     </form>
                   </MDBCol>
 
+                  
+
                   <MDBCol md="6">
                       <ul>
                         <li className="list-unstyled">
@@ -40,9 +53,16 @@ export default class FooterPage extends Component {
                         <li className="list-unstyled">
                           <a href="#!">Link 4</a>
                         </li>
+                        <span className="social-highlights">
                         <MDBIcon fab icon="facebook" />
+                        </span>
+                        <span className="social-highlights">
                         <MDBIcon fab icon="instagram" />
+                        </span>
+                        <span className="social-highlights">
                         <MDBIcon fab icon="pinterest" />
+                        </span>
+                        
                       </ul>
                   </MDBCol>
 
