@@ -3,15 +3,16 @@ import { MDBView, MDBMask, MDBBtn } from "mdbreact";
 import McParallax from '../Parallax/mcparallax.jsx';
 import ARSGold from '../images/ARS-goldlayout.jpg';
 import CydProfilePic from "../images/cydprofilepic.jpg";
+import MCCarousel from "../Carousel/carousel.jsx";
 
 export default class HomePage extends Component {
     render() {
         return (
             <div>
             
-            
+            <MCCarousel />
 
-          <McParallax />
+            <McParallax />
 
            
             <div class="jumbotron text-center p-4">

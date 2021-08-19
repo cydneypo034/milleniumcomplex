@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Parallax } from 'react-parallax';
 import { MDBView, MDBMask, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, 
     MDBCardTitle, MDBCardText, MDBCol } from "mdbreact";
     import FineArt from '../images/fineart.png';
@@ -10,13 +9,6 @@ import { MDBView, MDBMask, MDBBtn, MDBCard, MDBCardBody, MDBCardImage,
 export default class MCParallex extends Component {
     render() {
         return (
-            <Parallax blur={10} 
-            bgImage={require('../images/goldrush.jpg')}
-            bgImageAlt="gold-foil-paper"
-            strength={200}>
-
-            <div style={{ height: '50px' }} />
-
             <div className="row justify-content-center align-items-center h-100">
             <div className="card-wrapper">
                         <MDBCol>
@@ -66,8 +58,6 @@ export default class MCParallex extends Component {
                         </div>
             </div>
 
-            <div style={{ height: '50px' }} />
-            </Parallax>
 
 
         )
