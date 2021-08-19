@@ -1,61 +1,69 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ARSLOGO from '../images/ARS-logo.png';
 
-
-class FullPageIntroWithFixedTransparentNavbar extends React.Component {
+class FixedNavbarExample extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = {
-      collapse: false,
-      isWideEnough: false,
-    };
-    this.onClick = this.onClick.bind(this);
+      super(props);
+      this.state = {
+          collapse: false,
+      };
+      this.onClick = this.onClick.bind(this);
   }
 
   onClick() {
     this.setState({
-      collapse: !this.state.collapse,
-    });
+        collapse: !this.state.collapse,
+      });
   }
 
   render() {
-    return (
+    const bgPink = {backgroundColor: '#e91e63'}
+    const container = {height: 1300}
+    return(
       <div>
-        <header>
-          <Router>
-            <MDBNavbar className="nav-bar-color" fixed="top" dark expand="md" scrolling transparent>
+        <Router>
+          <header>
+            <MDBNavbar style={bgPink} dark expand="md" scrolling fixed="top">
               <MDBNavbarBrand href="/">
-                <img src={ARSLOGO} href="/" alt="green-logo-with-white-text" height="80" />
+                  <strong>Navbar</strong>
               </MDBNavbarBrand>
-              {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
-              <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav right>
+              <MDBNavbarToggler onClick={ this.onClick } />
+              <MDBCollapse isOpen = { this.state.collapse } navbar>
+                <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <MDBNavLink className="nav-bar-link" to="#">HOME</MDBNavLink>
+                      <MDBNavLink to="#">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="nav-bar-link" to="#">ABOUT</MDBNavLink>
+                      <MDBNavLink to="#">Features</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="nav-bar-link" to="#">FINE ART GALLERY</MDBNavLink>
+                      <MDBNavLink to="#">Pricing</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="nav-bar-link" to="#">BRANDING</MDBNavLink>
+                    <MDBNavLink to="#">Options</MDBNavLink>
+                  </MDBNavItem>
+                </MDBNavbarNav>
+                <MDBNavbarNav right>
+                  <MDBNavItem>
+                    <MDBNavLink to="#"><MDBIcon fab icon="facebook-f" /></MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink className="nav-bar-link" to="#">CONTACT</MDBNavLink>
+                    <MDBNavLink to="#"><MDBIcon fab icon="twitter" /></MDBNavLink>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <MDBNavLink to="#"><MDBIcon fab icon="instagram" /></MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </Router>
-
-        </header>
+          </header>
+        </Router>
+        
       </div>
     );
   }
 }
 
-export default FullPageIntroWithFixedTransparentNavbar;
+export default FixedNavbarExample;
