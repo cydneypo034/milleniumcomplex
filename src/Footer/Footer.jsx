@@ -1,21 +1,19 @@
 import React, {Component} from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBInput, MDBIcon, MDBFooter, MDBBtn } from "mdbreact";
-import SecondLogo from "../images/ARS-secondlogo.png";
 
 export default class FooterPage extends Component {
     render() {
         return (
-            <MDBFooter color="elegant-color-dark" className="font-small pt-4 mt-4">
+            <MDBFooter color="#1a237e indigo darken-4" className="font-small pt-4 mt-4">
               <MDBContainer fluid className="text-center text-md-left">
               <MDBRow>
 
                   <MDBCol md="6">
                   <p className="h5 text-left mb-4">Our Mission</p>
                   <h6 className="footer-text">
-                  We’re a fine art and design studio on a mission to share the heart of God ultimately through creating visuals that 
-                  spark conversations and aid businesses in sharing their God-given vision. Through a variety of art mediums, 
-                  Aesthetically Righteous Studios aims to craft artwork and strategies from a place of intentionality 
-                  and authenticity for businesses and beyond.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat.
                   </h6>
                   <div className="social-icons">
                     <MDBIcon fab icon="facebook" size="3x" /> &nbsp;
@@ -33,7 +31,7 @@ export default class FooterPage extends Component {
                       success="right" />
                   </div>
                   <div className="button-styled">
-                    <MDBBtn color="brown">
+                    <MDBBtn color="white">
                       Send
                       <MDBIcon far icon="paper-plane" className="ml-1" />
                     </MDBBtn>
@@ -52,7 +50,7 @@ export default class FooterPage extends Component {
                   <a href="#!">Contact Us</a> &nbsp;
 
                   &copy; {new Date().getFullYear()} Copyright: 
-                  <a href="https://www.aestheticallyrighteousstudios.com"> Aesthetically Righteous Studios </a>
+                  <a href="https://www.milleniumcomplex.com"> Millenium Complex Gospel Ministries </a>
                 </MDBContainer>
               </div>
             </MDBFooter>

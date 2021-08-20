@@ -4,10 +4,10 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCol } from 
 export default class MCParallex extends Component {
     render() {
         return (
-            <div className="row justify-content-center align-items-center h-100">
+            <div className="row justify-content-center align-items-center h-100" style={{padding:"2rem"}}>
             <div className="card-wrapper">
                         <MDBCol>
-                                <MDBCard style={{ width: "22rem" }}>
+                                <MDBCard style={{ width: "22rem", padding: "2rem" }}>
                                     
                                     <MDBCardBody className="card-info">
                                     <MDBCardTitle>New Here?</MDBCardTitle>
@@ -20,10 +20,10 @@ export default class MCParallex extends Component {
                             </MDBCol>
 
                             <MDBCol>
-                                <MDBCard style={{ width: "22rem" }}>
+                                <MDBCard style={{ width: "22rem", padding: "2rem" }}>
                                     
                                     <MDBCardBody className="card-info">
-                                    <MDBCardTitle>View Our Ministries</MDBCardTitle>
+                                    <MDBCardTitle>Join Us</MDBCardTitle>
                                     <MDBCardText>
                                         Feel free to view our ministries in film and music production, books and classes.
                                     </MDBCardText>
@@ -33,12 +33,12 @@ export default class MCParallex extends Component {
                             </MDBCol>
 
                             <MDBCol>
-                                <MDBCard style={{ width: "22rem" }}>
+                                <MDBCard style={{ width: "22rem", padding: "2rem" }}>
                                     
                                     <MDBCardBody className="card-info">
                                     <MDBCardTitle>Partner With Us</MDBCardTitle>
                                     <MDBCardText>
-                                        You can partner with us by donating via Paypal and Cashapp.
+                                        We appreciate everyone for supporting our ministry and would love for you to partner with us.
                                     </MDBCardText>
                                     <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">Give Today</MDBBtn>
                                     </MDBCardBody>

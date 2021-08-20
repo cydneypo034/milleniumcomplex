@@ -52,6 +52,7 @@ h1 {
     font-family: Royale;
     font-size: 30px;
     font-weight: 400;
+    text-align: center;
 }
 
 h4 {
@@ -62,7 +63,7 @@ h4 {
 
 p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .footer-text {
