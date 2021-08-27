@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { MDBView, MDBMask, MDBBtn } from "mdbreact";
 import McParallax from '../Parallax/mcparallax.jsx';
 import MCCarousel from "../Carousel/carousel.jsx";
 
