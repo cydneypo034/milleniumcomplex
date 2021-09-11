@@ -16,6 +16,20 @@
     flex-wrap: wrap;
 }
 
+.button-styled {
+    margin: right 1em;
+}
+
+MDBFooter {
+    text-align: center;
+}
+
+.form {
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
 .card-info {
     background-color: white;
     text-align: center;
