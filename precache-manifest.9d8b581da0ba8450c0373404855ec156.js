@@ -80,16 +80,16 @@ self.__precacheManifest = [
     "url": "/milleniumcomplex/static/media/fa-brands-400.f7307680.woff2"
   },
   {
+    "revision": "3b89dd103490708d19a95adcae52210e",
+    "url": "/milleniumcomplex/static/media/fa-brands-400.3b89dd10.ttf"
+  },
+  {
     "revision": "099a9556e1a63ece24f8a99859c94c7d",
     "url": "/milleniumcomplex/static/media/fa-brands-400.099a9556.woff"
   },
   {
     "revision": "7630483dd4b0c48639d2ac54a894b450",
     "url": "/milleniumcomplex/static/media/fa-regular-400.7630483d.eot"
-  },
-  {
-    "revision": "3b89dd103490708d19a95adcae52210e",
-    "url": "/milleniumcomplex/static/media/fa-brands-400.3b89dd10.ttf"
   },
   {
     "revision": "f0f8230116992e521526097a28f54066",
@@ -144,12 +144,12 @@ self.__precacheManifest = [
     "url": "/milleniumcomplex/static/media/Roboto-Thin.7500519d.woff"
   },
   {
-    "revision": "a990f611f2305dc12965f186c2ef2690",
-    "url": "/milleniumcomplex/static/media/Roboto-Light.a990f611.eot"
-  },
-  {
     "revision": "94998475f6aea65f558494802416c1cf",
     "url": "/milleniumcomplex/static/media/Roboto-Thin.94998475.ttf"
+  },
+  {
+    "revision": "a990f611f2305dc12965f186c2ef2690",
+    "url": "/milleniumcomplex/static/media/Roboto-Light.a990f611.eot"
   },
   {
     "revision": "69f8a0617ac472f78e45841323a3df9e",
@@ -160,16 +160,16 @@ self.__precacheManifest = [
     "url": "/milleniumcomplex/static/media/Roboto-Light.3b813c2a.woff"
   },
   {
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/milleniumcomplex/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
     "revision": "30799efa5bf74129468ad4e257551dc3",
     "url": "/milleniumcomplex/static/media/Roboto-Regular.30799efa.eot"
   },
   {
     "revision": "2751ee43015f9884c3642f103b7f70c9",
     "url": "/milleniumcomplex/static/media/Roboto-Regular.2751ee43.woff2"
-  },
-  {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/milleniumcomplex/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
     "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
@@ -180,16 +180,12 @@ self.__precacheManifest = [
     "url": "/milleniumcomplex/static/media/Roboto-Medium.4d9f3f9e.eot"
   },
   {
-    "revision": "574fd0b50367f886d359e8264938fc37",
-    "url": "/milleniumcomplex/static/media/Roboto-Medium.574fd0b5.woff2"
-  },
-  {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
     "url": "/milleniumcomplex/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/milleniumcomplex/static/media/Roboto-Medium.894a2ede.ttf"
+    "revision": "574fd0b50367f886d359e8264938fc37",
+    "url": "/milleniumcomplex/static/media/Roboto-Medium.574fd0b5.woff2"
   },
   {
     "revision": "fc78759e93a6cac50458610e3d9d63a0",
@@ -198,6 +194,10 @@ self.__precacheManifest = [
   {
     "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
     "url": "/milleniumcomplex/static/media/Roboto-Bold.ecdd509c.eot"
+  },
+  {
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/milleniumcomplex/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
