@@ -17,6 +17,7 @@ export default class App extends Component {
         </Switch>
         </HashRouter>
         
+        <HomePage />
 
         <Footer />
       </div>
