@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCol } from "mdbreact";
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCol, MDBCardImage } from "mdbreact";
 
 export default class MCParallex extends Component {
     render() {
@@ -8,39 +8,42 @@ export default class MCParallex extends Component {
             <div className="card-wrapper">
                         <MDBCol>
                                 <MDBCard style={{ width: "22rem", padding: "2rem" }}>
-                                    
+                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                                     <MDBCardBody className="card-info">
-                                    <MDBCardTitle>New Here?</MDBCardTitle>
+                                    <MDBCardTitle>Music Production</MDBCardTitle>
+                                    <MDBCardTitle className="subtitle-text-card">FIA Gospel Ministries</MDBCardTitle>
                                     <MDBCardText>
-                                       Millenium Complex is a ministry dedicated to providing services for you and your family.
+                                       Bringing hope and unity through gospel music written and produced by Dr. P
                                     </MDBCardText>
-                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">Meet Us</MDBBtn>
+                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">Click to Learn More</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
 
                             <MDBCol>
                                 <MDBCard style={{ width: "22rem", padding: "2rem" }}>
-                                    
+                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                                     <MDBCardBody className="card-info">
-                                    <MDBCardTitle>Join Us</MDBCardTitle>
+                                    <MDBCardTitle>Film Production</MDBCardTitle>
+                                    <MDBCardTitle className="subtitle-text-card">KCS-Squared Film</MDBCardTitle>
                                     <MDBCardText>
-                                        Feel free to view our ministries in film and music production, books and classes.
+                                        We write and produce Christian films that focus on unique stories about faith, deliverance and God's love
                                     </MDBCardText>
-                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">Join Us</MDBBtn>
+                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">Watch Our Trailers</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
 
                             <MDBCol>
                                 <MDBCard style={{ width: "22rem", padding: "2rem" }}>
-                                    
+                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                                     <MDBCardBody className="card-info">
-                                    <MDBCardTitle>Partner With Us</MDBCardTitle>
+                                    <MDBCardTitle>Inspiration</MDBCardTitle>
+                                    <MDBCardTitle className="subtitle-text-card">Positiv Newsletter</MDBCardTitle>
                                     <MDBCardText>
-                                        We appreciate everyone for supporting our ministry and would love for you to partner with us.
+                                        A Christian quarterly news and inspiration publication with words to inspire and encourage
                                     </MDBCardText>
-                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">Give Today</MDBBtn>
+                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">View Our Recent Article</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>

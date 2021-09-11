@@ -15,11 +15,6 @@ export default class FooterPage extends Component {
                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
                     commodo consequat.
                   </h6>
-                  <div className="social-icons">
-                    <MDBIcon fab icon="facebook" size="3x" /> &nbsp;
-                    <MDBIcon fab icon="instagram" size="3x" /> &nbsp;
-                    <MDBIcon fab icon="pinterest" size="3x" /> &nbsp;
-                  </div>
                   </MDBCol>
 
                   <MDBCol md="6">

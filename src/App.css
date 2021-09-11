@@ -21,6 +21,10 @@
     text-align: center;
 }
 
+.subtitle-text-card {
+    font-size: 10px;
+}
+
 .jumbotron {
     background-color: #495E61 !important;
     margin-bottom: -25px !important;

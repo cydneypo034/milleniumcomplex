@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
+MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBIcon, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-import MCLogo from '../images/mclogo1.png';
+import ForIAmLogo from '../images/foriamlogo.png';
 
 export default class NavbarPage extends Component {
 state = {
@@ -18,44 +18,82 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar color="#ffffff white" dark expand="md">
+      <MDBNavbar color="#1a237e indigo darken-4" dark expand="md">
         <MDBNavbarBrand>
-          <img src={MCLogo} className="img-fluid" style={{ width: "10rem", height: "10rem" }}/>
+          <img src={ForIAmLogo} className="img-fluid" style={{ width: "10rem", height: "10rem", position: "relative", zIndex: "2" }}/>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
 
-          <MDBNavbarNav right>
+          <MDBNavbarNav left>
 
             <MDBNavItem active >
-              <MDBNavLink to="#!" className="indigo-text">Home</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text">Home</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="indigo-text">About</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text">About</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="indigo-text">Contact</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text">Vision & Mission</MDBNavLink>
+            </MDBNavItem>
+
+            <MDBNavItem>
+              <MDBNavLink to="#!" className="white-text">History</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2" className="indigo-text">Ministries</span>
+                  <span className="mr-2" className="white-text">Ministries</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">Film and TV Production</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Music and Recording</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">F.I.A. Corporation</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Gospel Music and Recording</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Church Membership</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Software</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="indigo-text">Donate</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text">Contact</MDBNavLink>
+            </MDBNavItem>
+
+            <MDBNavItem>
+              <MDBNavLink to="#!" className="white-text">Donate</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
+          
+          
+          <MDBNavbarNav right>
 
+          <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light" to="#!">
+            <MDBIcon fab icon="facebook" size="1x" /> &nbsp;
+          </MDBNavLink>
+          </MDBNavItem>
+
+          <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light" to="#!">
+            <MDBIcon fab icon="twitter" size="1x" /> &nbsp;
+          </MDBNavLink>
+          </MDBNavItem>
+
+          <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light" to="#!">
+            <MDBIcon fab icon="instagram" size="1x" /> &nbsp;
+          </MDBNavLink>
+          </MDBNavItem>
+
+          <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light" to="#!">
+            <MDBIcon fab icon="youtube" size="1x" /> &nbsp;
+          </MDBNavLink>
+          </MDBNavItem>
+
+          </MDBNavbarNav>
           
 
         </MDBCollapse>
