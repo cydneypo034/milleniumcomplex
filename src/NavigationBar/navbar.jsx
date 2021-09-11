@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBIcon, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
+MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBIcon, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -20,7 +20,7 @@ render() {
     <Router>
       <MDBNavbar color="#1a237e indigo darken-4" dark expand="md">
         <MDBNavbarBrand>
-         <a href="#!"><img src={ForIAmLogo} style={{ width: "10rem", height: "10rem", 
+         <a href="#!"><img src={ForIAmLogo} alt="blue-logo-with-dove" style={{ width: "10rem", height: "10rem", 
          position: "relative", zIndex: "2" }}/></a>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />

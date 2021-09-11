@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from
 "mdbreact";
 import WorshipLove from '../images/worshiplove.jpg';
 import FamilyMinistry from '../images/familyministry.JPG';
