@@ -20,17 +20,14 @@ render() {
     <Router>
       <MDBNavbar color="#1a237e indigo darken-4" dark expand="md">
         <MDBNavbarBrand>
-          <img src={ForIAmLogo} className="img-fluid" style={{ width: "10rem", height: "10rem", position: "relative", zIndex: "2" }}/>
+         <a href="#!"><img src={ForIAmLogo} style={{ width: "10rem", height: "10rem", 
+         position: "relative", zIndex: "2" }}/></a>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
 
           <MDBNavbarNav left>
-
-            <MDBNavItem active >
-              <MDBNavLink to="#!" className="white-text">Home</MDBNavLink>
-            </MDBNavItem>
-
+            
             <MDBNavItem>
               <MDBNavLink to="#!" className="white-text">About</MDBNavLink>
             </MDBNavItem>

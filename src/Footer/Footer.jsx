@@ -9,15 +9,6 @@ export default class FooterPage extends Component {
               <MDBRow>
 
                   <MDBCol md="6">
-                  <p className="h5 text-left mb-4">Our Mission</p>
-                  <h6 className="footer-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat.
-                  </h6>
-                  </MDBCol>
-
-                  <MDBCol md="6">
                   <form className="form-group w-50">
                   <p className="h5 text-left mb-4">Stay Connected</p>
                   <h6 className="footer-text">Sign up to stay updated with all updates released!</h6>
@@ -45,7 +36,7 @@ export default class FooterPage extends Component {
                   <a href="#!">Contact Us</a> &nbsp;
 
                   &copy; {new Date().getFullYear()} Copyright: 
-                  <a href="https://www.milleniumcomplex.com"> Millenium Complex Gospel Ministries </a>
+                  <a href="https://www.milleniumcomplex.com"> FOR I AM Gospel Ministries </a>
                 </MDBContainer>
               </div>
             </MDBFooter>
