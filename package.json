@@ -1,6 +1,6 @@
 {
-  "homepage": "http://cydneypo034.github.io/milleniumcomplex",
   "name": "client",
+  "homepage": "http://cydneypo034.github.io/milleniumcomplex/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
