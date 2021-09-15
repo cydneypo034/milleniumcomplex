@@ -12,9 +12,9 @@ export default class HomePage extends Component {
 
             <div style={{padding:"2rem", textAlign:"center"}}>
                 <h1 >VISION STATEMENT</h1>
-                <p>Our vision is to be of service as believers working together for the
-                    common purpose of spreading the word collectively as a body of Christ
-                    through worship and praise, teaching and preaching using His pulpit,
+                <p>Our vision is to be of service as believers working together for the common 
+                    purpose of spreading the gospel of Jesus Christ collectively 
+                    through worship and praise, teaching and preaching using His pulpit, 
                     and glorifying Him through artistic media.</p>
             </div>
             
@@ -27,11 +27,11 @@ export default class HomePage extends Component {
 
             <div style={{padding:"2rem", textAlign:"center"}}>
                 <h1 >MISSION STATEMENT</h1>
-                <p>The mission of FIA Gospel Ministries is to honor the Father by inviting lost 
-                  souls into salvation through the blood of our savior Jesus Christ to enrich lives
-                  and encourage saints through fellowship. We believe there is one and only one true
-                  and living God who is self existent and the eternal I AM, the creator of heaven and 
-                  Earth, the redeemer of mankind.</p>
+                <p>The mission of For I Am Global Ministries is to honor the Father by inviting lost souls 
+                    into salvation through the blood of our savior Jesus Christ and to encourage the saints through 
+                    fellowship. We believe there is one and only one true and living God (I Am) 
+                    who is self-existent and His son Jesus Christ, the creator of heaven and Earth, 
+                    the redeemer of mankind.</p>
             </div>
             
             </div>

@@ -14,10 +14,9 @@ export default class App extends Component {
         <HashRouter>
           <Switch>
           <Route exact path='/' component={HomePage} />
-        </Switch>
-        </HashRouter>
+          </Switch>
+          </HashRouter>
         
-        <HomePage />
 
         <Footer />
       </div>

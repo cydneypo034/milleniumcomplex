@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from
 "mdbreact";
-import WorshipLove from '../images/worshiplove.jpg';
-import FamilyMinistry from '../images/familyministry.JPG';
-import BoyWithBible from '../images/boywithbible.jpg';
+import WorshipLove from '../images/worshiplove.png';
+import FamilyMinistry from '../images/familyministry.png';
+import BoyWithBible from '../images/boywithbible.png';
 
 
 export default class McCarousel extends Component {
