@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactPlayer from 'react-player';
 import McParallax from '../Parallax/mcparallax.jsx';
 import MCCarousel from "../Carousel/carousel.jsx";
 import Background from "../images/bluewaves.jpg";
@@ -19,10 +20,7 @@ export default class HomePage extends Component {
             </div>
             
             <div style={{padding:"2rem", backgroundImage: `url(${Background})`}}>
-            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/HYqMoW48tDs" title="YouTube video player" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-                </center>
+            <ReactPlayer url='https://www.youtube.com/embed/HYqMoW48tDs' playing='true' loop='true'/>
             </div>
 
             <div style={{padding:"2rem", textAlign:"center"}}>
