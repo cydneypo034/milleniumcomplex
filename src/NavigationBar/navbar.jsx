@@ -46,7 +46,7 @@ render() {
                   <span className="mr-2" className="white-text">Ministries</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">F.I.A. Corporation</MDBDropdownItem>
+                  <MDBDropdownItem href="https://fiaworld.com/">F.I.A. Corporation</MDBDropdownItem>
                   <MDBDropdownItem href="#!">Gospel Music and Recording</MDBDropdownItem>
                   <MDBDropdownItem href="#!">Church Membership</MDBDropdownItem>
                   <MDBDropdownItem href="#!">Software</MDBDropdownItem>

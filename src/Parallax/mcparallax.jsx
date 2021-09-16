@@ -59,6 +59,34 @@ export default class MCParallex extends Component {
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
+
+                            <MDBCol>
+                                <MDBCard style={{ width: "22rem", padding: "2rem" }}>
+                                <MDBCardImage className="img-fluid" src={Positiv} waves />
+                                    <MDBCardBody className="card-info">
+                                    <MDBCardTitle>Bible Study</MDBCardTitle>
+                                    <MDBCardTitle className="subtitle-text-card">Positiv Newsletter</MDBCardTitle>
+                                    <MDBCardText>
+                                        A Christian quarterly news and inspiration publication with words to inspire and encourage
+                                    </MDBCardText>
+                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">View Our Recent Article</MDBBtn>
+                                    </MDBCardBody>
+                                </MDBCard>
+                            </MDBCol>
+
+                            <MDBCol>
+                                <MDBCard style={{ width: "22rem", padding: "2rem" }}>
+                                <MDBCardImage className="img-fluid" src={Positiv} waves />
+                                    <MDBCardBody className="card-info">
+                                    <MDBCardTitle>Ministry</MDBCardTitle>
+                                    <MDBCardTitle className="subtitle-text-card">Positiv Newsletter</MDBCardTitle>
+                                    <MDBCardText>
+                                        A Christian quarterly news and inspiration publication with words to inspire and encourage
+                                    </MDBCardText>
+                                    <MDBBtn color="#1a237e indigo darken-4" className="white-text" href="#">View Our Recent Article</MDBBtn>
+                                    </MDBCardBody>
+                                </MDBCard>
+                            </MDBCol>
                         </div>
             </div>
 
