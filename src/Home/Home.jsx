@@ -47,11 +47,24 @@ export default class HomePage extends Component {
             <h1 style={{ color: "white", backgroundColor: "#1a237e", padding: "2rem"}}> Our Ministries </h1>
             <McParallax />
 
-                
+            
+            <div class="row">
             <div style={{padding:"2rem", backgroundImage: `url(${Background})`}}>
+            
+            <div class="col-md-4 offset-md-1 mx-3 my-3">
             <ReactPlayer url='https://www.youtube.com/embed/HYqMoW48tDs' playing='true' loop='true'/>
             </div>
 
+             <div class="col-md-7 text-md-left ml-3 mt-3" style={{color: "white"}}>
+             FIA Corporation has been serving the Atlanta community in music as well as video broadcasting and production since 1993.
+             While the company thrives in many entertainment categories, some of the current corporate subsidiaries include: TV Broadcast Productions, 
+             Music and Artist Productions, KCS-Squared Film and Animations, Studio Software, and WFIA Hybrid Radio Station.
+             </div>
+
+            </div>
+            </div>
+
+            
             </div>
 
         )

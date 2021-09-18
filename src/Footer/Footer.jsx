@@ -5,6 +5,7 @@ import ForIAmLogo2 from '../images/secondforiamlogo.png';
 export default class FooterPage extends Component {
     render() {
         return (
+          <div>
             <MDBFooter color="#1a237e indigo darken-4" className="font-small pt-4 mt-4">
               <MDBContainer fluid className="text-center text-md-center">
               
@@ -38,7 +39,7 @@ export default class FooterPage extends Component {
                 </MDBContainer>
               </div>
             </MDBFooter>
-
+            </div>
             
       );
     }
