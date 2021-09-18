@@ -4,7 +4,7 @@ MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBIcon, MDBNavItem, MDBNavLink, MDBNav
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-import ForIAmLogo from '../images/foriamlogo.png';
+import ForIAmLogo from '../images/foriamLogos.gif';
 
 export default class NavbarPage extends Component {
 state = {

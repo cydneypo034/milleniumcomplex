@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {  MDBContainer,  MDBInput, MDBFooter, MDBBtn } from "mdbreact";
-import ForIAmLogo2 from '../images/secondforiamlogo.png';
+import ForIAmLogo2 from '../images/secondforiamlogo2.png';
 
 export default class FooterPage extends Component {
     render() {

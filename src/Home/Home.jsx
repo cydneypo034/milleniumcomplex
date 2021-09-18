@@ -11,7 +11,9 @@ export default class HomePage extends Component {
             <div>      
             <MCCarousel />
 
-            <h1 style={{ color: "white", backgroundColor: "#1a237e", padding: "2rem"}}> Who We Are </h1>
+            
+            <h1 style={{ color: "white", backgroundColor: "#1a237e", padding: "1rem"}}> WHO ARE WE </h1>
+
 
             <div class="jumbotron text-center hoverable p-4">
                 <div class="row">
@@ -44,10 +46,11 @@ export default class HomePage extends Component {
 
                 </div>
 
-            <h1 style={{ color: "white", backgroundColor: "#1a237e", padding: "2rem"}}> Our Ministries </h1>
+            <h1 style={{ color: "white", backgroundColor: "#1a237e", padding: "1rem"}}> OUR MINISTRIES </h1>
             <McParallax />
 
-            
+
+            <h1 style={{ color: "white", backgroundColor: "#1a237e", padding: "1rem"}}> FIAWORLD GOSPEL PRODUCTIONS</h1>
             <div class="row">
             <div style={{padding:"2rem", backgroundImage: `url(${Background})`}}>
             
