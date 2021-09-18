@@ -29,21 +29,21 @@ render() {
           <MDBNavbarNav left>
             
             <MDBNavItem>
-              <MDBNavLink to="#!" className="white-text">About</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text" style={{fontSize: "20px"}}>About</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="white-text">Vision & Mission</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text" style={{fontSize: "20px"}}>Vision & Mission</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="white-text">History</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text" style={{fontSize: "20px"}}>History</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2" className="white-text">Ministries</span>
+                  <span className="mr-2" className="white-text" style={{fontSize: "20px"}}>Ministries</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem href="https://fiaworld.com/">F.I.A. Corporation</MDBDropdownItem>
@@ -55,11 +55,11 @@ render() {
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="white-text">Contact</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text" style={{fontSize: "20px"}}>Contact</MDBNavLink>
             </MDBNavItem>
 
             <MDBNavItem>
-              <MDBNavLink to="#!" className="white-text">Donate</MDBNavLink>
+              <MDBNavLink to="#!" className="white-text" style={{fontSize: "20px"}}>Donate</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           
@@ -68,25 +68,25 @@ render() {
 
           <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="#!">
-            <MDBIcon fab icon="facebook" size="1x" /> &nbsp;
+            <MDBIcon fab icon="facebook" size="3x" /> &nbsp;
           </MDBNavLink>
           </MDBNavItem>
 
           <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="#!">
-            <MDBIcon fab icon="twitter" size="1x" /> &nbsp;
+            <MDBIcon fab icon="twitter" size="3x" /> &nbsp;
           </MDBNavLink>
           </MDBNavItem>
 
           <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="#!">
-            <MDBIcon fab icon="instagram" size="1x" /> &nbsp;
+            <MDBIcon fab icon="instagram" size="3x" /> &nbsp;
           </MDBNavLink>
           </MDBNavItem>
 
           <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="#!">
-            <MDBIcon fab icon="youtube" size="1x" /> &nbsp;
+            <MDBIcon fab icon="youtube" size="3x" /> &nbsp;
           </MDBNavLink>
           </MDBNavItem>
 
