@@ -3,6 +3,18 @@ html, body {
     margin: 0;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
+.jumbotron, h1 {
+    margin-top: 0;
+}
+
+.fia-text-right {
+    float:  right;
+}
+
 .container {
     display: inline-block;
 }
