@@ -10,13 +10,11 @@ export default class App extends Component {
     return (
       <div>
          <Router>
-           <NavBar />
-
-         
+          <NavBar />
           <Route exact path='/' component={HomePage} />
+          <Footer />          
           </Router>
-      
-        <Footer />
+
       </div>
     )
   }
