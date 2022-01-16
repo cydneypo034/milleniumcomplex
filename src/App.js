@@ -8,14 +8,11 @@ import Footer from './Footer/Footer.jsx';
 export default class App extends Component {
   render() {
     return (
-      <div>
          <Router>
           <NavBar />
           <Route exact path='/' component={HomePage} />
           <Footer />          
           </Router>
-
-      </div>
     )
   }
 };
