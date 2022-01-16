@@ -9,9 +9,11 @@ export default class App extends Component {
   render() {
     return (
          <Router>
-          <NavBar />
-          <Route exact path='/' component={HomePage} />
-          <Footer />          
+           <div>
+              <NavBar />
+              <Route exact path='/' component={HomePage} />
+              <Footer />  
+           </div>
           </Router>
     )
   }
